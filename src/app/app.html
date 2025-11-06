@@ -1,0 +1,10 @@
+<div>{{message}}</div>
+<button (click)="doClickBt()">click me {{srv.total/10}} times</button>
+<button (click)="doGetPage('page1')" >page1</button>
+<button (click)="doGetPage('page2')" >page2</button>
+<button (click)="doGetPage('page3')" >page3</button>
+<button (click)="doGetPage('page-error')" >page4</button>
+<app-uncmp></app-uncmp>
+<hr/>
+<router-outlet/>
+<hr/>
